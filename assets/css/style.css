@@ -1,0 +1,112 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+a:hover { text-decoration: none }
+.service-item{
+    background-position: center;
+    background-size: cover;
+    background-color: #eee;
+    height: 350px;
+    position: relative;
+    border-radius: 5px 5px 0px 0px;
+}
+.service-bg1{
+    background-image: url(../img/bg-1.jpg)
+}
+.service-bg2{
+    background-image: url(../img/bg-2.jpg)
+}
+.service-bg3{
+    background-image: url(../img/bg-3.jpg)
+}
+
+.section-padding {
+    padding: 100px 0;
+  }
+  .section-titel {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .section-titel h1 {
+    text-transform: uppercase;
+    color: #212121;
+    font-size: 45px;
+    font-weight: 400;
+  }
+  .section-titel h1 span {
+    color: #06cad0;
+  }
+  .section-titel p {
+    font-size: 25px;
+    color: #848484;
+  }
+  .service-hover {
+    text-align: center;
+    padding-top: 30px;
+  }
+  .service-hover i {
+    position: relative;
+    color: #fff;
+    transition: .2s;
+  }
+  .service-hover i:before {
+    font-size: 60px;
+    position: absolute;
+    bottom: 0;
+    background-color: #25385b;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0px;
+    margin-left: -42px;
+    transition: .2s;
+  }
+  .service-hover h2 {
+    text-transform: uppercase;
+    line-height: 2;
+    padding-bottom: 20px;
+    margin: 0;
+    font-weight: 500;
+  }
+.hold-item {
+    color: #333;
+    border: 1px solid #e0e0e0;
+    display: block;
+    border-radius: 5px;
+  }
+  .hold-item:hover .service-hover {
+    background-color: #25385b;
+    color: #fff;
+  }
+  .hold-item:hover .service-hover i:before {
+    background-color: #00c9cf;
+    border-color: #25385b;
+     
+  }
